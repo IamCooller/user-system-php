@@ -17,6 +17,7 @@ A simple application that allows users to register, login, and update their acco
 - **Libraries**:
   - Bootstrap 5 (Frontend CSS)
   - jQuery (JavaScript library)
+  - Flight PHP Framework (RESTful API)
 
 ## Installation & Setup
 
@@ -25,6 +26,7 @@ A simple application that allows users to register, login, and update their acco
 - PHP 7.4+
 - MySQL 5.7+
 - Web server (Apache, Nginx, or MAMP/XAMPP)
+- Composer (PHP package manager)
 
 ### Database Setup
 
@@ -37,11 +39,20 @@ A simple application that allows users to register, login, and update their acco
 
 ### Application Setup
 
+1. Clone the repository:
+   ```
+   git clone https://github.com/IamCooller/user-system-php
+   cd /user-system-php
+   ```
 
+2. Install PHP dependencies:
+   ```
+   composer install
+   ```
 
-2. Place the project in your web server's document root directory (e.g., htdocs for MAMP)
+3. Place the project in your web server's document root directory (e.g., htdocs for MAMP)
 
-3. The application automatically detects the folder name it's installed in and adjusts paths accordingly
+4. The application automatically detects the folder name it's installed in and adjusts paths accordingly
 
 ## Changing Project Directory Name
 
@@ -84,6 +95,7 @@ This application dynamically detects the folder name it's installed in and adjus
 - `/js` - JavaScript files
 - `/config` - Configuration files
 - `/database` - Database schema and migrations
+- `/vendor` - Composer dependencies (not included in repository)
 
 ## Notes
 
