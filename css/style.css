@@ -1,0 +1,54 @@
+/* Main styles for user management application */
+
+body {
+	background-color: #f8f9fa;
+}
+
+.card {
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+}
+
+.card-header {
+	background-color: #f1f8ff;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header h3 {
+	margin: 0;
+	font-size: 1.5rem;
+}
+
+.form-label {
+	font-weight: 500;
+}
+
+.btn {
+	margin-right: 10px;
+}
+
+#profileSection {
+	animation: fadeIn 0.3s ease-in-out;
+}
+
+.alert {
+	margin-top: 20px;
+}
+
+.btn-close {
+	font-size: 0.8rem;
+}
+
+/* Add spacing between buttons */
+.btn + .btn {
+	margin-left: 10px;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
